@@ -25,4 +25,4 @@ if __name__ == "__main__":
     print(f"The result of multiplying 5 and 3 is: {result}")
     result = divide(5, 3)
     print(f"The result of dividing 5 by 3 is: {result}")
-
+    

@@ -1,5 +1,6 @@
 from app import app
 
+
 def test_add():
     assert app.add(5, 3) == 8
 
@@ -21,4 +22,3 @@ def test_divide_by_zero():
         app.divide(5, 0)
     except ValueError as e:
         assert str(e) == "Cannot divide by zero"
-
