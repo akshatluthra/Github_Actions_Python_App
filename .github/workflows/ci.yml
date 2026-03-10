@@ -11,6 +11,12 @@ jobs:
            uses: actions/setup-python@v2
            with:
              python-version: '3.x'
+         
+         - name: Print Files
+           run: |
+             pwd
+             ls -la
+
          - name: Install dependencies
            run: |
              python install -r requirements.txt
