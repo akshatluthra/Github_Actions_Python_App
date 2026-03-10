@@ -12,7 +12,7 @@ def test_subtract():
 def test_multiply():
     assert app.multiply(5, 3) == 15
 
-    
+
 def test_divide():
     assert app.divide(5, 3) == 5 / 3
 
